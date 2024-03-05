@@ -1,10 +1,37 @@
 /* style.css */
 
+/* style.css */
+
+@font-face {
+    font-family: 'GabesFont';
+    src: url('GabesFont-Regular.ttf') format('truetype');
+}
+
+.text-container {
+    font-family: 'GabesFont', sans-serif; /* Use the custom font with a fallback */
+    /* Add your text styling here */
+}
+
+
 .songs-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+
+body {
+    background-image: url("9f0e91ba-6d76-47e6-a20b-9242f4c52609.gif");
+    /* background-repeat: no-repeat; */
+    /* background-size: ; */
+    font-family: "GabesFont";
+    color: darkturquoise;
+    text-shadow:2px 2px magenta;
+    /* text-shadow:2px 2px black; */
+}
+
+.mp3 {
+    
 }
 
 .image-container img {
@@ -16,3 +43,13 @@
 .text-container {
     /* Add your text styling here */
 }
+
+.scroll-down {
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    display: flex; /* Enable Flexbox */
+    height: 100vh; /* Set the container height to full viewport height */
+}
+
+
+
