@@ -3,15 +3,15 @@ function createSongElement(song) {
     songContainer.classList.add("song");
 
     // Title
-    const title = document.createElement("p");
+    const title = document.createElement("h1");
     title.textContent = song.Title;
 
     // Features
-    const features = document.createElement("p");
+    const features = document.createElement("h2");
     features.textContent = `Featuring ${song.Features}`;
 
     // Producers
-    const producers = document.createElement("p");
+    const producers = document.createElement("h3");
     producers.textContent = `Produced by ${song.Producers}`;
 
     // Image
