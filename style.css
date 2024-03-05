@@ -1,0 +1,18 @@
+/* style.css */
+
+.songs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.text-container {
+    /* Add your text styling here */
+}
